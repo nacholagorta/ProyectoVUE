@@ -1,0 +1,15 @@
+
+<section class = "login-registro">
+
+  <div class = "plogin" v-show=" blLoginVisible">
+  <h1>{{sTitulo}}</h1>
+
+<button>Logearse</button>
+<button v-on:click="clickDeBotonRegistrarse">Registrarse</button>
+  </div>
+  <div class = "pregister" v-show ="!blLoginVisible">
+  <h1>PANEL REGISTER</h1>
+  <button>Registrarse</button>
+  <button>Cancelar</button>
+  </div>
+</section>
